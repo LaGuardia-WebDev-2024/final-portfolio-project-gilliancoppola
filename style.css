@@ -42,5 +42,22 @@ li a:hover:not(.active) {
 
 h1 {
   width: 100%;
-  color:rgb(243, 222, 193)
+  color:rgb(243, 222, 193);
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
+h2 {
+  width: 100%;
+  color:rgb(243, 222, 193);
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bodypar{
+  font-size: x-large;
+
+}
+
