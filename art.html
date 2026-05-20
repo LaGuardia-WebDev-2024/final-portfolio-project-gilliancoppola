@@ -6,9 +6,8 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
-      .parent-flex {
+      .parent-flex-art {
         display: flex;
-        background-color: #4d1507;
         justify-content: space-around;
         padding: 10px;
         margin-bottom: 20px;
@@ -46,16 +45,26 @@
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
     <h1>My Art</h1>
 
-    <div class="parent-flex">
-      <img
+    <div class="image" class="parent-flex-art">
+      <img class="image__img"
         src="images/HeartIcons.jpeg"
       />
-      <img
+      <div class="image__overlay">
+        <div class="image__title">Artwork Title</div>
+        <p class="image__description">material and year</p>
+      </div>
+
+      <!-- 5:34 time stamp -->
+      <img class="image__img"
         src="images/VibeyTunes.png"
       />
+      <div class="image__overlay">
+        <div class="image__title">Artwork Title</div>
+        <p class="image__description">material and year</p>
+      </div>
     </div>
 
-    <div class="parent-flex">
+    <div class="parent-flex-art">
       <img
         src="images/VibeyTunes.png"
       />
