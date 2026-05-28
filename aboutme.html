@@ -7,21 +7,25 @@
     <style>
       /* Styling Only Related To THIS Page */
       .parent-flex {
-        display: flex;
+        /* display: flex; */
         background-color: #4d1507;
-        align-items: center;
-        justify-content: space-around;
+        /* align-items: center; */
+        /* justify-content: center; */
         margin-bottom: 50px;
+        padding-bottom:25px;
+        padding-top:25px;
       }
 
-      .parent-flex img {
+      /* .parent-flex img {
         width: 150px;
+        background-color: pink;
         padding: 20px;
-      }
+      } */
       .child-flex p {
         background-color: rgb(77, 144, 146);
         padding: 20px;
         margin: 20px;
+        width: 60%;
       }
 
       .flip-card {
@@ -43,7 +47,7 @@
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+/* Do a horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -97,7 +101,7 @@
     <div class="parent-flex">
      
 
-      <div class="flip-card">
+      <div class="flip-card child-flex">
   <div class="flip-card-inner">
     <div class="flip-card-front">
       <img src="images/HeartIcons.jpeg" style="width:260px;height:300px;">
